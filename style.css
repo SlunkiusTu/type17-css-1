@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  min-width: 500px;
 }
 
 header {
@@ -29,7 +30,40 @@ nav ul li a {
   transition: 0.3s;
 }
 
+h1 {
+  margin: 0;
+  font-weight: 900;
+  font-size: 44px;
+}
+
 nav ul li a:hover {
   color: rgb(0, 0, 0);
   border-bottom: 2px solid black;
+}
+
+main {
+  height: 600px;
+  background-size: cover;
+  padding-left: 40px;
+  padding-right: 40px;
+  overflow: auto;
+  background-image: url("https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0%2C214%2C3008%2C1579&wid=1200&hei=630&scl=2.506666666666667");
+}
+
+.mainContent {
+  width: 350px;
+  margin-top: 150px;
+  color: white;
+}
+
+.playImage {
+  width: 16px;
+  height: 16px;
+}
+
+.callToAction {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
 }
